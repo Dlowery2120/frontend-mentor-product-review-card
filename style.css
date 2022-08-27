@@ -84,3 +84,26 @@ select {
     scroll-behavior: auto !important;
   }
 }
+body {
+  background-color: var(--clr-primary-300);
+}
+.card {
+  background-color: var(--clr-neutral-100);
+  display: flex;
+  padding:
+}
+
+.even-columns > * {
+  flex-basis: 100%;
+  min-width: 25ch;
+}
+
+.even-columns:nth-of-type(2) {
+  padding: 2.5em
+}
+
+@media screen and (max-width: 40em) {
+  .card {
+    flex-wrap: wrap;
+  }
+}
